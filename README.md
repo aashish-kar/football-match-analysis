@@ -32,6 +32,22 @@ Exploratory data analysis and machine learning project on the 2024/25 European f
 - All six form features contributed roughly equally to predictions — no single stat dominates match outcomes
 - **SQL self-join analysis** revealed that mid-table teams like AS Monaco and Aston Villa had the largest home/away performance gaps (21 points over the season), while top clubs like Real Madrid and Barcelona performed far more consistently regardless of venue
 
+## Power BI Dashboard
+
+An interactive dashboard was built in Power BI to visualize match outcomes, scoring 
+trends, and top-performing teams, with a competition slicer for filtering.
+
+![Football Dashboard](images/dashboard_ss.png)
+
+**Includes:**
+- Match outcome distribution (Home Win / Away Win / Draw)
+- Average goals per match by competition
+- Top 10 home-scoring teams
+- Interactive slicer to filter all visuals by competition
+
+The full working file (`football_dashboard.pbix`) and a PDF export are included in 
+this repo.
+
 ## Tech Stack
 
 - Python, pandas, matplotlib
